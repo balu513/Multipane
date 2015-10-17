@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.demo.appsforbb.multipane.DetailActivity">
+    <FrameLayout
+        android:id="@+id/framelayout_right"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_red_dark"
+        android:layout_weight="1">
+    </FrameLayout>
+
+
+</RelativeLayout>
